@@ -1,0 +1,170 @@
+.boton {
+    background: #fff;
+    text-transform: inherit;
+    font-weight: 700;
+    border-radius: 10px;
+    line-height: 15px;
+    font-size: 15px;
+    padding: 20px 30px;
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+    font-family: 'Photograph';
+    src: url('fonts/Photograph.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/gilroy-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-regular';
+    src: url('fonts/gilroy-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tittle {
+    font-family: 'Photograph', sans-serif !important;
+}
+
+.sub-tittle {
+    font-family: 'Gilroy', sans-serif !important;
+}
+
+.sub-content {
+    font-family: 'Gilroy-regular', sans-serif !important;
+}
+
+
+.tittle-number {
+    font-family: 'Cookie', cursive !important;
+}
+
+.number-date {
+    font-size: 120px !important;
+    padding: 0 30px 0 30px !important;
+}
+
+.align-middle {
+    display: flex;
+    flex-direction: row; /* Para que los divs estén en fila */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.img-corchetes {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.text-container {
+    color: #4A6360;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.icon-color {
+    color: blue !important;
+}
+
+hr {
+    height: 1px;
+    width: 50%;
+    background-color: #81948B;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    margin-bottom:  20px;
+}
+
+body div#google-anno-sa {
+    display: none !important;
+}
+
+/* section.cuenta-regresiva .box-aros {
+    width: 470px;
+    height: 470px;
+    background: url(../img/img_circuloContador01.svg) center center no-repeat;
+    position: absolute;
+    z-index: 99;
+    top: -200px;
+} */
+
+/* section.cuenta-regresiva .mensaje-first {
+    position: absolute;
+    z-index: 99;
+    top: 200px;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 0 10px 0 10px;
+    color: #81948B !important;
+    font-weight: 400 !important;
+    font-size: 18   px !important;
+} */
+
+@media only screen and (max-width: 767px) {
+    section.ceremonia-fiesta .ceremonia-fiesta-flor-der {
+        width: 30%;
+        bottom: 46% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    section.cuenta-regresiva {
+        height: 200px !important;
+    }
+}
+
+.font-soloh {
+    font-family: 'Cookie', cursive !important;
+    font-size: 40px !important;
+}
+
+.line-color {
+    height: 1px;
+    width: 50%;
+    background-color: #81948B;
+    margin: 20px auto;
+    margin-top: 20px;
+}
+
+.versiculo {
+    background-color: #FAF7F3;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 10px 10px 30px 10px;
+    color: #81948B !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+.green-dark {
+    color: #5c726e !important;   
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+section.footer .info-col .info-box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #81948B;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    section.footer {
+        padding-bottom: 20%;
+        padding-top: 20% !important;
+    }
+}
